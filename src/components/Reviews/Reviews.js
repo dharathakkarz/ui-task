@@ -74,9 +74,7 @@ export default function Reviews() {
        
       </div>
       </div>
-      {/* <div className='mx-3' ><img src={re2} /></div>
-      <div className='mx-3' ><img src={r3} /></div>
-      */}
+  
     </div>
     </div>
   )

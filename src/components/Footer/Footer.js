@@ -48,16 +48,10 @@ export default function Footer() {
       <img src={ig} alt="" style={{marginRight:"9px"}} />
       <li><a href="#" className="mb-4">Instagram</a></li>
       </div>
-    
-       
-        
       
       </ul>
-    </div>
-
-    
-   
-   
+    </div>  
+  
   </div>
   <div class="container mx-auto flex justify-between items-center">
     <div>
@@ -69,10 +63,7 @@ export default function Footer() {
     </div>
   </div>
  
-</footer>
-
-
-     
+</footer>    
     </div>
   )
 }
