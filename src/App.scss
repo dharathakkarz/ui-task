@@ -2,8 +2,34 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+// Importing Gilroy Font Locally (Replace '../fonts/' with the correct path)
+// @font-face {
+//   font-family: 'Gilroy';
+//   src: url('../fonts/gilroy-black-webfont.woff') format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+// }
 
-body{
-    font-family:Gilroy-Bold;
-    
+// @font-face {
+//   font-family: 'Gilroy';
+//   src: url('../public/fonts/gilroy-black-webfont.woff') format('woff');
+//   font-weight: bold;
+//   font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Gilroy';
+//     src: url('../public/fonts/gilroy-bold-webfont.woff') format('woff');
+//     font-weight: bold;
+//     font-style: normal;
+//   }
+//   @font-face {
+//     font-family: 'Gilroy';
+//     src: url('../public/fonts/gilroy-regular-webfont.woff') format('woff');
+//     font-weight: bold;
+//     font-style: normal;
+//   }
+
+body {
+  font-family: 'Gilroy', sans-serif;
 }

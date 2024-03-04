@@ -21,7 +21,7 @@ export default function Experience() {
                 <p style={{ color: '#E58411', fontSize: '14px', border: '1px ', width: '37.5px', height: '8.8px', top: '7px', left: '4.5px', whiteSpace: 'nowrap'}}>
                     More Info 
                 </p>
-                <img className='absolute' src={Vector} style={{ left:920, marginTop: 0 }}/>
+                <img className='eximg absolute' src={Vector} style={{ left:1190, marginTop: 1 }}/>
     
 
             </div>

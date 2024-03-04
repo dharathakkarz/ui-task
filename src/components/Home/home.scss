@@ -1,6 +1,86 @@
-.home-background{
-    background-image: url('../../assets/home/home.png');
-    width: 1040px;
-    height: 1084px;
 
-}  
+
+.main-div {
+    position: absolute;
+    inset: 0;
+    margin-top: -20px;
+    z-index: 1;
+  }
+  
+  .home-img {
+    width: 100%;
+    position: relative;
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  .home {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -90px;
+  
+    .home-p {
+      font-weight: bold;
+      font-size: 50px;
+      color: #FFFFFF;
+      margin-bottom: 4px;
+    }
+  
+    .inner-p {
+      color: #FFFFFF;
+      margin-bottom: 4px;
+    }
+  
+    .search-img {
+      margin-bottom: 4px;
+      margin-left: 4px;
+    }
+  }
+  
+  
+  @media (min-width: 992px) {
+    .home {
+      .home-p {
+        font-size: 60px;
+      }
+    }
+  
+    .home-img img {
+      max-width: 100%;
+    }
+  }
+  
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .home {
+      .home-p {
+        font-size: 40px;
+      }
+    }
+  }
+  
+ 
+  @media (min-width: 576px) and (max-width: 767px) {
+    .home {
+      .home-p {
+        font-size: 30px;
+      }
+    }
+  }
+  
+  
+  @media (max-width: 575px) {
+    .home {
+      .home-p {
+        font-size: 20px;
+      }
+    }
+  }
+  

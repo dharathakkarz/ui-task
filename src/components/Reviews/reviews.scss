@@ -1,0 +1,95 @@
+.rmain {
+  height: 800px;
+}
+
+.rmain1 {
+  text-align: center; 
+}
+
+.rhead {
+  color: #E58411;
+}
+
+.rsubhead {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.rcard {
+  display: flex;
+  justify-content: center;
+}
+
+.rcardmenu {
+  margin: 0 1rem;
+  position: relative;
+}
+
+.rcardmenu img {
+  max-width: 100%;
+  height: auto;
+}
+
+.rcardmenu1 .absolute {
+  position: static;
+}
+
+.rcardmenu2 {
+  background-color: white;
+  width: 80%;
+  height: 45%;
+  margin-bottom: -10rem;
+  border-radius: 0.75rem;
+}
+
+.rcardmenu3 .rounded-full {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rcardname.text-center {
+  font-weight: bold;
+}
+
+.rcardsubname.text-center {
+  display: block;
+}
+
+.rcarddetails.text-center {
+  text-align: center;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.rimg.rounded-full {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .rcard {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rcardmenu {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .rcard {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rcardmenu {
+    margin: 0;
+  }
+}
