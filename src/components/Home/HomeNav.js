@@ -5,9 +5,9 @@ import '../Home/homenav.scss';
 export default function HomeNav() {
   return (
     <div className='main-nav mb-6' >
-    <nav class="nav flex  items-center justify-between bg-transparent py-4 px-6 " >
+    <nav class="nav flex  items-center justify-between bg-transparent py-4 px-6 sm:px-12 md:px-16 lg:px-20 xl:px-24" >
   
-  <div class="nav-1 flex items-center mb-12" >
+  <div class="nav-1 flex items-center mb-4 sm:mb-0" >
  
     <h1 class="nav-h1 text-white font-semibold text-lg" style={{ marginTop:"25px" }}>Panto</h1>
   </div>
@@ -37,3 +37,4 @@ export default function HomeNav() {
    
   )
 }
+
