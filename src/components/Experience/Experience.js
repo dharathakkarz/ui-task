@@ -1,6 +1,7 @@
 import React from 'react'
 import './experience.scss'
 import expe from "../../assets/expe.png"
+import Vector from "../../assets/Vector.png"
 
 export default function Experience() {
     return (
@@ -20,6 +21,8 @@ export default function Experience() {
                 <p style={{ color: '#E58411', fontSize: '14px', border: '1px ', width: '37.5px', height: '8.8px', top: '7px', left: '4.5px', whiteSpace: 'nowrap'}}>
                     More Info 
                 </p>
+                <img className='absolute' src={Vector} style={{ left:920, marginTop: 0 }}/>
+    
 
             </div>
 

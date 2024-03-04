@@ -16,11 +16,11 @@ export default function Home() {
      
       </div>
       <div className='absolute inset-0  flex flex-col items-center justify-center' style={{ marginTop:"-90px" }}>
-          <p className='font-bold mb-4' style={{ fontSize:50 , color:"#FFFFFF"}} >Make your interior more </p>
-         <p className='font-bold mb-2' style={{ fontSize:50 , color:"#FFFFFF"}} > minimalistic & modern</p>
-          <p className='mb-4' style={{ color:"#FFFFFF" }}>Turn your room with panto into a lot more minimalist </p>
-          <p style={{ color:"#FFFFFF" }} >and modern with ease and speed</p>
-          <img className='mx-4' src={search} />
+          <p className='font-bold' style={{ fontSize:50 , color:"#FFFFFF"}} >Make your interior more </p>
+         <p className='font-bold mb-4' style={{ fontSize:50 , color:"#FFFFFF"}} > minimalistic & modern</p>
+          <p className='' style={{ color:"#FFFFFF" }}>Turn your room with panto into a lot more minimalist </p>
+          <p className='mb-4' style={{ color:"#FFFFFF" }} >and modern with ease and speed</p>
+          <img className=' mb-4 mx-4' src={search} />
         </div>
 
         <Homefooter/>

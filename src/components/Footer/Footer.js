@@ -34,17 +34,17 @@ export default function Footer() {
   
     <div>
       <h2 className="text-xl font-bold mb-4" style={{ color:"#F6973F" }}  >Follow Us</h2>
-      <ul className=" ">
-      <div className='flex'>
+      <ul className=" mb-4">
+      <div className='flex mb-4'>
       <img src={fb} alt="" style={{marginRight:"9px"}} />
       <li><a href="#" className="mb-4">Facebook</a></li>
       </div>
-      <div className='flex'>
+      <div className='flex mb-4'>
       <img src={tw} alt="" style={{marginRight:"9px"}} />
       <li><a href="#" className="mb-4">Twiter</a></li>
       </div>
 
-      <div className='flex'>
+      <div className='flex mb-4'>
       <img src={ig} alt="" style={{marginRight:"9px"}} />
       <li><a href="#" className="mb-4">Instagram</a></li>
       </div>
@@ -55,7 +55,7 @@ export default function Footer() {
   </div>
   <div class="container mx-auto flex justify-between items-center">
     <div>
-      <p>&copy; 2024 Your Company. All rights reserved.</p>
+      <p>Copyright © 2021</p>
     </div>
     <div>
       <a href="#" className=" mr-4">Terms and Conditions</a>
