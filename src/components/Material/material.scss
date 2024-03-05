@@ -1,79 +1,94 @@
+
 .custom-flex-container {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
+  justify-content: center; 
+  margin-bottom: 15%;
 }
+.infoimg {
+  
+  left: 24%;
+  margin-top: 2px;
+}
+
 
 .custom-content-container {
   flex-grow: 1;
-  padding: 7rem;
-  width: 556px;
-  height: 1000px;
+  padding: 3rem; 
+  max-width: 556px; 
+  height: 100%;
   opacity: 0.8;
-  font-family: Gilroy-Regular;
+  font-family: 'Gilroy-Regular';
   font-size: 18px;
   line-height: 33px;
   letter-spacing: 0em;
   text-align: left;
-  color: #1E1E1E;
-  top: 250px;
-  box-sizing: border-box; 
+  color: #1e1e1e;
+  box-sizing: border-box;
+  margin: auto; 
 
   @media (max-width: 768px) {
-    width: 80%; 
-    padding: 2rem; 
+    width: 90%; 
+    padding: 1rem; 
   }
 }
 
 .custom-bold {
-  width: 143px;
+  width: 100%; 
+  max-width: 143px; 
   height: 15px;
-  font-family: Gilroy-SemiBold;
+  font-family: 'Gilroy-SemiBold';
   font-size: 18px;
   line-height: 2px;
   letter-spacing: 0.175em;
   text-align: left;
-  color: #E58411;
+  color: #e58411;
 }
 
 .custom-boldtext {
-  width: 100%; 
+  width: 100%;
+  max-width: 100%; 
   height: 100px;
-  top: 3597px;
-  left: 80px;
-  font-family: Gilroy-Bold;
-  font-size: 2.5rem; 
+  font-family: 'Gilroy-Bold';
+  font-size: 2.5rem;
   line-height: 49px;
   letter-spacing: 0em;
   text-align: left;
-  color: #1E1E1E;
+  color: #1e1e1e;
 
   @media (max-width: 768px) {
-    width: 100%; 
+    width: 100%;
   }
 }
 
-.custom-boldtext .p {
-  width: 100%; 
-  height: 99px;
-  top: 3773px;
-  left: 80px;
-  opacity: 0.8px;
-  font-family: Gilroy-Regular;
-  font-size: 1rem; 
+.custom-boldtext p {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+  font-family: 'Gilroy-Regular';
+  font-size: 1rem;
   line-height: 33px;
   letter-spacing: 0em;
   text-align: left;
-  color: #1E1E1E;
+  color: #1e1e1e;
+  margin: 0; 
+}
+
+.infoimg {
+  height: auto;
+  left: 19%;
+  margin-top: 2px;
 }
 
 .custom-image-container {
   display: flex;
   flex-direction: column;
+  align-items: center; 
 }
 
 .custom-image {
-  width: 100%; 
-  max-width: 100%; 
-  height: auto; 
-  margin-bottom: 5%; 
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 5%;
 }

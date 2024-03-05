@@ -12,7 +12,7 @@
       margin: 0 auto;
     }
     .view-img{
-      left: 0;
+      left: 22%;
     }
   }
   
@@ -32,3 +32,27 @@
       margin: 0 2% 1rem 2%;
     }
   }
+
+
+
+.view-img {
+  width: 30px; 
+  height: auto;
+  position: relative;
+ 
+  margin-top: -20px;
+  max-width: 100%; 
+
+  @media screen and (max-width: 1023px) {
+    
+    width: 25px; 
+    left: 70%; 
+  }
+
+  @media screen and (min-width: 1024px) {
+   
+    width: 35px;
+    left: 92%; 
+  }
+}
+

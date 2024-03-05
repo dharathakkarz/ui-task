@@ -53,7 +53,7 @@ export default function Product() {
 
       <div className='productview mt-12 text-center' style={{ color: "#E58411" }}>
         <p>View All</p>
-        <img className='view-img absolute' src={Vector} alt="View All" style={{ left: "90%", marginTop: "-20px" }} />
+        <img className='view-img absolute' src={Vector} alt="View All" style={{ left: "52%", marginTop: "-20px" }} />
       </div>
     </div>
   );
